@@ -1,6 +1,6 @@
-##Multi-Tier Architecture with AWS CloudFormation
+Multi-Tier Architecture with AWS CloudFormation
 
-##Overview
+Overview
 
 This CloudFormation template creates a multi-tier architecture for hosting a website with:
 
@@ -10,7 +10,7 @@ This CloudFormation template creates a multi-tier architecture for hosting a web
 
 A VPC with subnets, security groups, and routing
 
-##Architecture
+Architecture
 
 VPC: Created with public and private subnets
 
@@ -30,7 +30,7 @@ Private EC2: Allows SSH only from Public EC2
 
 RDS: Allows connections only from Private EC2 on port 3306
 
-##Resources Created
+Resources Created
 
 VPC and Subnets (Public, Private, DB Subnet)
 
